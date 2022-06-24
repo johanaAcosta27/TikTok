@@ -1,0 +1,53 @@
+
+Presentacion del proyecto TikTok
+
+Proyecto: CloneTikTok
+El proyecto tiene una sola pagína, que seria la principal
+imitando la pagína de inicio de la red social TikTok.
+la pagina esta dividida en en tres sectores:
+
+1. Header:
+ Superior izquierdo el logo de TikTok, superior
+derecho, cuenta con dos iconos y a lado el avatar (la foto del
+usuario)
+2. Sidebar: 
+ Apartado izquierdo, el mismo renderiza una imagen de home y un
+ <span> "Para vos", 
+una imagen de people con un <span> "Siguiendo",
+El mismo Sidebar tiene otro sector inferior con las Cuentas
+Principales el cual le tengo una cuenta por defecto 
+desde el <user>
+Seguidamente un <InfoContainer> con el inicio, sobre mi,
+sala de prensa, carrera, byteDance, ayuda, seguridad entre otros.
+3. PosCard:
+ La parte central de la pagina, renderiza un avatar que seria la foto
+del autor del video, seguidamente con su nombre, nickname, descripcion,
+tags, y le sigue un <button> Seguir, abajo una imagen de icono
+song, junto al nombre del video.
+<VideoContainer> renderiza el video guardado en la base de datos MongoDB
+client, con algunos atributos.
+Debajo del video tenemos algunos iconos mas, luego le sigue 
+el likes, comments, replies.
+Todos los datos del <PostCard> son traidos de la base de datos, los
+datos ya estan incrustrado en el mismo, y estan guardadas en las nubes.
+4. Suggestions:
+Este apartado esta del lado derecho de la pagína principal la misma contiene:
+Una serie de recomendaciones de cuentas, con su name, username y su avatar,
+los datos estan harcodeado como en Sidebar.
+La parte inferior de este apartado tiene unos logos de distintas aplicaciones.
+
+
+Lista de actividades:
+Tiempo de entrega 5 días naturales
+Dos Integrantes en el equipo de desarrollo
+1. Día uno: Definir dependencias, Diseñar, planificar, coordinar y definir el plan del proyecto
+el equipo de dev.
+2. Día dos: Distribuir actividades y empezar las configuraciones iniciales del proyecto.
+3. Día tres: Recopilacion de actividades y requisitos, y finalizar el Back End, iniciar el Front End.
+4. Día cuadro: Conexion el Back con el Front, y creacion de componentes.
+5. Día cinco: Terminar el FrontEnd y recopilacion del proyecto terminado.
+
+Dado el tiempo limitado para la entrega de este proyecto, el equipo de trabajo decidio trabajar 
+en conjunto realizando primeramente el Back End y luego el Front End, para poder resolver los 
+problemas que surgen en grupo para minimizar y optimizar tiempo..!!!!! 
+ 
